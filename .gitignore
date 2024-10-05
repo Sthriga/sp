@@ -1,0 +1,23 @@
+# Ignore environment settings
+.env
+
+# Ignore cache, logs, and writable directories
+writable/cache/
+writable/logs/
+writable/session/
+writable/debugbar/
+
+# Ignore Composer files
+/vendor/
+
+# Editor-specific files
+*.swp
+*.swo
+.idea/
+*.vscode/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
